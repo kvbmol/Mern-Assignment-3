@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">My Portfolio</div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about" class="container about">
+    <img class="profile" src="images/myPic.png" alt="Profile Picture" />
+    <div>
+      <h1>Bindumol Kadavil Velayudhan</h1>
+      <h2>Frontend Developer</h2>
+      <p>Passionate about building modern, user-centric web applications applying the latest frontend technologies.</p>
+    </div>
+  </section>
+
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="images/payroll.jpg" alt="My project-1" />
+        <h3>Paytips</h3>
+        <p>It is an online web application developed by me using php and mysql for payroll.
+            It is currently using in my office. It includes modules for Employee Management,Attendance and Leave Management,Payroll Processing,Salary Slip Generation,Tax Calculation and Reporting.    
+            It has simplified our payroll operations, improved accuracy, and ensured compliance with tax regulations.   
+            This application has made the payroll process more efficient and less time-consuming.   
+            
+        </p>
+      </div>
+      <div class="project-card">
+        <img src="images/utility.jpg" alt="My Project-2" />
+        <h3>BATL-Connect</h3>
+        <p>It is an online web application running successfully in my office through our LAN.
+            I developed it for our office to manage various employee-related utilities and services.
+            It includes multiple modules to streamline and automate different processes for employees.
+            It helps in managing visitor passes, vehicle passes, work permits, food bookings, canteen coupons, meeting hall bookings, shift changes, telecom directories, event galleries, action point recordings, and task management and many more.
+            I developed it with php and mysql.</p>
+      </div>
+      <div class="project-card">
+        <img src="images/subcotract.png" alt="My Project-3" />
+        <h3>Sub Contract Tracking</h3>
+        <p>Presently, I am working in sub-contracting department. I have assigned to develop an online application for tracking the material movement to vendors and products from vendors and processing their bills. Its development is going on.Front end is php and back end is mysql.
+            I can now develop web applications more beutiful with the help of this online class from Entri.
+             But I want to learn more web technologies like HTML, CSS, JavaScript, React JS, Node JS and MongoDB to make the web application more effective and user friendly.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+</body>
+</html>
